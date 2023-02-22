@@ -8,7 +8,6 @@ Imposta l'attributo src dell'immagine in modo che punti ad un contenuto reale, e
 Crea un elemento <a> che linki alla tua pagina il tuo profilo GitHub o LinkedIn; il testo del tag <a> dovrebbe essere "GitHub" oppure "LinkedIn".
 Crea un elemento footer sotto l'elemento main, e inserisci come testo: "Copyright [your name]"
 Cambia il tuo link esterno con un link interno, cambiando l'attributo href con "#footer" e il testo da "GitHub" o "LinkedIn" a "Scorri al fondo". Infine, aggiungi un id con valore "#footer" all'elemento footer; in questo modo, cliccando il link lo raggiungerai immediatamente.
-
 Crea un nuovo elemento paragrafo. Riempilo con un pezzo di testo che ti descriva. In questo modo dovresti raggiungere 3 tag p in totale nel tuo documento.
 Annida il tuo ultimo elemento <a> all'interno di questo paragrafo.
 A volte capita di voler inserire nel testo dei link senza ancora sapere dove porteranno. Cambia l'attributo href del tuo link con un hashtag "#", in modo da renderlo inutilizzabile.
@@ -16,6 +15,7 @@ Inserisci la tua immagine dentro un nuovo tag <a>. Questo link, come spiegato so
 Crea una lista di elementi non ordinata elencando le tue skills, con un titolo "Le mie competenze".
 Crea una lista di elementi ordinata chiamata "Competenze da acquisire", in cui per ordine di importanza ne elenchi tre.
 Annida le tue due liste appena create dentro un unico elemento div.-->
+
 
 
 
@@ -36,21 +36,39 @@ Annida le tue due liste appena create dentro un unico elemento div.-->
         <a href="#"><img style="width: 200px;" src="IMG_6494.JPG" alt="FOTO PERSONALE"></a>
         <p>Salve a tutti sono Carrubba Samuel di 24 anni e vengo da Siracusa,Sicilia.</p>
         <p>Sono un appasionato di viaggi di cucina e di fotografia</p>
-        <p>Attualmente vivo a Firenze per lavoro. <br> Lavoro attualmente come tecnico di telecomunicazioni. Per saperne di piu' clicca qui! <a href="#footer">Scorri in fondo</a></p>
+        <p>Attualmente vivo a Firenze per lavoro. <br> Attualmente svolgo la funzione di tecnico per telecomunicazioni.<a href="#footer">Scorri in fondo</a></p>
     </main>
     <div>
+        <h3>Le mie competenze:</h3> 
         <ul>
-            <span>Le mie competenze:</span> 
             <li>-HTML</li>
             <li>-CSS</li>
         </ul>
+        <h3>Le competenze da acquisire:</h3>
         <ol>
-            <span>Le competenze da acquisire:</span>
             <li>-Java</li>
             <li>-React</li>
             <li>-.NET</li>
         </ol>
     </div>
+    <table>
+        <tr>
+            <td>ESPERIENZE LAVORATIVE</td>
+            <td>SCUOLA</td>
+        </tr>
+        <tr>
+            <td>Cameriere</td>
+            <td>Licenza media</td>
+        </tr>
+        <tr>
+            <td>Pizzaiolo</td>
+            <td>Scuola superiore di secondo grado</td>
+        </tr>
+        <tr>
+            <td>Tecnico di telecomunicazioni</td>
+            <td>Laurea in matematica</td>
+        </tr>
+    </table>
     <footer id="footer">Copyright Carrubba Samuel</footer>
 </body>
 </html>
